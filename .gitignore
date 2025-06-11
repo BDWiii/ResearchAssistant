@@ -4,7 +4,7 @@ checkpoints.sqlite-wal/
 temp.pdf/
 *.pt/
 
-__pychache__/
+__pycache__/
 *.log
 
 .env
