@@ -1,0 +1,11 @@
+vector_store/Chroma_vs/
+checkpoints.sqlite-shm/
+checkpoints.sqlite-wal/
+temp.pdf/
+*.pt/
+
+__pychache__/
+*.log
+
+.env
+*.sqlite3
