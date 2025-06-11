@@ -1,0 +1,5 @@
+# loaded model ( for GPU utilization )
+model:''
+
+# DB infra 
+ttl: 
