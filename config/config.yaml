@@ -1,5 +1,5 @@
 # loaded model ( for GPU utilization )
-model:''
-
+model: "llama3.1:8b-instruct-q4_K_M"
+API_port: ""
 # DB infra 
-ttl: 
+ttl: ""
