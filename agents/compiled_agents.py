@@ -338,7 +338,9 @@ class ResearchAssistant:
         main_builder.add_edge("chat", END)
         main_builder.add_edge("improver_agent", END)
 
-        conn = sqlite3.connect("checkpoints.sqlite", check_same_thread=False)
+        conn = sqlite3.connect(
+            "checkpoints/checkpoints.sqlite", check_same_thread=False
+        )
         memory = SqliteSaver(conn)
         compile_kwargs = {"checkpointer": memory}
 
@@ -419,5 +421,6 @@ class ResearchAssistant:
         if next_node not in ["search_agent", "deep_analysis_agent", "chat"]:
             return "chat"
         return next_node
+
 
 #########################################################################
