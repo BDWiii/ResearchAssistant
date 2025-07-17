@@ -2,6 +2,7 @@
 
 A powerful AI-powered research assistant that helps analyze and understand academic papers. This tool can process research papers, provide detailed explanations, and generate comprehensive analyses.
 
+![Research Graph](images/Research%20Graph.png)
 ## Features
 
 - Paper Analysis: Deep analysis of academic papers with detailed explanations
